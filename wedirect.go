@@ -22,7 +22,7 @@ func main() {
 		}
 	})
 
-	// Specify http server defaults
+	// specify http server defaults
 	srv := &http.Server{
 		Addr:         ":80",
 		ReadTimeout:  3 * time.Second,
